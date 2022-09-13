@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+  <title>Shayla Mueller | Web Developer</title>
+  <meta name="keywords" content="javascript, shayla mueller, react.js" />
+  <meta name="description" content="Shayla Mueller | Developer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.scss" />
+  <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+  <div id="top"></div>
+  <!-- **** Hero Section **** -->
+  <section id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title load-hidden">
+        Hi, my name is <span class="text-color-main">SHAYLA MUELLER</span>.
+        <br />
+        I am a Front End Web Developer.
+      </h1>
+      <p class="hero-cta load-hidden">
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Learn More</a>
+      </p>
+      <img class="scrolling-img" src="assets/scrolling.png" alt="">
+    </div>
+  </section>
+  <!-- /END Hero Section -->
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title load-hidden">About me</h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image load-hidden">
+            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px"
+              src="assets/shayla.jpg" alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info load-hidden">
+            <p class="about-wrapper__info-text">
+              My whole life I have wanted to create things that matter. I was not sure how to fulfill that goal until I
+              took my first JavaScript class. Coding opened a new world of possibilities for me.
+            </p>
+            <p class="about-wrapper__info-text">
+              I am a senior studying at Brigham Young University - Idaho. My major is Web Design & Development with an
+              emphasis in Development.
+            </p>
+            <p class="about-wrapper__info-text">
+              I define myself as a developer first, but I am very drawn to the aspects of web design. I highly admire
+              designers that create innovative user interfaces. However, I am always too curious on how these designs
+              would work and be implemented with code. For this reason, I am a Front End Web Developer with an
+              admiration for design.
+            </p>
+            <p class="about-wrapper__info-text">
+              I graduate in April 2023 and am planning on working in a JavaScript Framework after graduation. Click on
+              my resume to learn more about me!
+            </p>
+            <span class="d-flex mt-3">
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/resume.pdf">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /END About Section -->
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projects</h2>
+        <div id="test"></div>
+        <!-- PROJECT 1 -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Mauveau Clothing Co</h3>
+              <div>
+                <p class="mb-4">
+                  Using React, React Router, Firebase, and Styled Components, I built a basic eCommerce site. This site
+                  allows a user to log in with Google or their username/password. They can also create an account using
+                  their username and password. There are five different categories of items including mens, womens,
+                  hats, sneakers, and jackets. Users can utilize the cart to add items and keep track of costs.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://loquacious-trifle-71ed3b.netlify.app/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/shaymuel/mauveau-clothing-co">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://loquacious-trifle-71ed3b.netlify.app/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/mavueau-clothing.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- PROJECT 2 -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Discover New Movies</h3>
+              <div>
+                <p class="mb-4">
+                  Using The Movie Database (TMDB) I created a fun application where users learn about popular new
+                  movies. Users can see the movie ratings, summary, and trailers. They can also search for their
+                  favorite movies and get the same information. If they are not sure what to watch, users can search by
+                  genre to get some ideas. Local Storage is used to remember passed searches which users can click to
+                  resubmit a search.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://shaymuel.github.io/portfolio/Challenge2/index.html">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/shaymuel/portfolio/tree/main/Challenge2">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://shaymuel.github.io/portfolio/Challenge2/index.html" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/movie-final-project.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- PROJECT 3 -->
+        <div class="row" id="project-3">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Chamber of Commerce</h3>
+              <div>
+                <p class="mb-4">
+                  This chamber of commerce mock website invites local businesses to get involved in their communities.
+                  The website contains upcoming community events along with the weather and beautiful pictures of the
+                  local area. There is a form for businesses who want to join the chamber of commerce as well as a
+                  contact page. Using Open Weather Maps, the user can see upcoming weather alerts. There is also a list
+                  of businesses already involved with the chamber of commerce. This website helped me practice design
+                  and implementation.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://shaymueller.github.io/wdd230/lesson12/home/index.html">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/shaymuel/chamber-of-commerce-mockup">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://shaymueller.github.io/wdd230/lesson12/home/index.html" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/chamber-of-commerce.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- PROJECT 4 -->
+        <div class="row" id="project-3">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Trello Look-alike</h3>
+              <div>
+                <p class="mb-4">
+                  Using the Drag and Drop Web API, I created an application that acts similar to Trello. A user can drop
+                  and drag tasks into various sections to keep track of what they need to do. They can edit their tasks
+                  and add new tasks to each section. This application offers a flexible environment for users to keep
+                  track of many different things.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://shaymuel.github.io/kanban-board-trello-mockup/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/shaymuel/kanban-board-trello-mockup">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://shaymuel.github.io/kanban-board-trello-mockup/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/kanban-board.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- PROJECT 5 -->
+        <div class="row" id="project-3">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Joke Bot</h3>
+              <div>
+                <p class="mb-4">
+                  Using a Joke API and a Text-To-Speech API, a user can listen to programming jokes from a robot. Make
+                  sure sound is on and press the "Tell Me A Joke" button.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://shaymuel.github.io/audio-joke-teller/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/shaymuel/audio-joke-teller">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://shaymuel.github.io/audio-joke-teller/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/joke-teller.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- PROJECT 6 -->
+        <div class="row" id="project-3">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Monsters Rolodex</h3>
+              <div>
+                <p class="mb-4">
+                  Using React and React Hooks, a list of monsters is displayed to the user. The user can search for the
+                  name of any monster to narrow the list of monsters. This is a basic React.js application.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://631ad5c69989746e596b0029--beautiful-lolly-86c80c.netlify.app/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/shaymuel/monsters-rolodex">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://631ad5c69989746e596b0029--beautiful-lolly-86c80c.netlify.app/"
+                target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/monsters-rolodex.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- PROJECT 7 -->
+        <div class="row" id="project-3">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Dark & Light Mode</h3>
+              <div>
+                <p class="mb-4">
+                  Users can transform this mock website from light to dark mode with the click of a switch. This
+                  application changes colors in the images, buttons, backgrounds and more. Local Storage is used to
+                  remember the user's preferred setting.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://shaymuel.github.io/dark-or-light-mode-project/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/shaymuel/dark-or-light-mode-project">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://shaymuel.github.io/dark-or-light-mode-project/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/dark-or-light-mode.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- PROJECT 8 -->
+                <div class="row" id="project-3">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Drawing Application</h3>
+              <div>
+                <p class="mb-4">
+                  This basic drawing application utilizes HTML Canvas to allow users to draw with various colors and brush sizes. It uses Local Storage to save or delete images the user has created. Users can save their picture as an image file or erase the canvas. 
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://shaymuel.github.io/drawing-application/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/shaymuel/drawing-application">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://shaymuel.github.io/drawing-application/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/paint.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- PROJECT 9 -->
+        <div class="row" id="project-3">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Roadway Weather Channel</h3>
+              <div>
+                <p class="mb-4">
+                  Utilizing the Open Weather Maps API, I built a website that shows the weather for Southeast Idaho. Users can see the weather for Preston, Soda Springs, or Fish Haven, ID. They can also report a storm in the storm center or look at a picture gallery.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://shaymueller.github.io/wdd230/lesson11/home/index.html">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/shaymuel/roadway-weather-channel">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://shaymueller.github.io/wdd230/lesson11/home/index.html" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/roadway-weather-channel.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  <!-- /END Projects Section -->
+  <!-- Contact Section  -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper load-hidden">
+        <p class="contact-wrapper__text">Let's connect on LinkedIn!</p>
+        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
+          href="https://www.linkedin.com/in/shayladancemueller/">Connect Now</a>
+      </div>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a rel="noreferrer" href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a rel="noreferrer" href="https://www.linkedin.com/in/shayladancemueller/" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="https://github.com/shaymuel" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+  </footer>
+  <!-- /END Footer Section -->
+  <script defer type="module" src="index.js"></script>
+</body>
+
+</html>
